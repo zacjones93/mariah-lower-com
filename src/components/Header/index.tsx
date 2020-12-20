@@ -5,12 +5,12 @@ export const Header = () => {
     <div className="md:flex md:items-center md:justify-between bg-gray-600">
       <div className="flex min-w-0">
         <img
-          className="inline-block h-14 w-15 "
+          className="inline-block h-14 w-15 rounded-full"
           src="https://res.cloudinary.com/dpspogkzf/image/upload/v1608414621/mariah-lower/kettlebell_sw2kpr.jpg"
           alt="kettlebell drawing"
         />
         <NextLink href="/">
-          <h2 className="ml-3 items-baseline font-bold leading-7 pt-7 sm:pt-6 text-green-500 text-4xl sm:truncate cursor-pointer align-bottom">
+          <h2 className="ml-3 items-baseline font-bold leading-7 pt-6 text-green-500 text-4xl sm:truncate cursor-pointer align-bottom">
             Mariah Lower
           </h2>
         </NextLink>
