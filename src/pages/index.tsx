@@ -3,6 +3,7 @@ import Head from 'next/head'
 import {Header} from '../components/Header'
 import {Hero} from '../components/Hero'
 import {About} from '../components/About'
+import {Email} from '../components/Email'
 import {Footer} from '../components/Footer'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
+      <Email className="justify-center" />
       <Footer />
     </div>
   )
