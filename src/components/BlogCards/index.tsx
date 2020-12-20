@@ -19,7 +19,7 @@ export const BlogCards = () => {
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           <Card
-            imgSrc="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            imgSrc="https://res.cloudinary.com/dpspogkzf/image/upload/v1608499718/mariah-lower/IMG_9205_fb5q7y.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
             alt="desk"
             postType="Nutrition"
             title="Boost your immune system with these foods"
@@ -28,7 +28,7 @@ export const BlogCards = () => {
             readTime="6"
           />
           <Card
-            imgSrc="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            imgSrc="https://res.cloudinary.com/dpspogkzf/image/upload/v1608499285/mariah-lower/IMG_8987_uov6aj.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
             alt="desk"
             postType="Yoga"
             title="Sunrise flow"
@@ -37,7 +37,7 @@ export const BlogCards = () => {
             readTime="4"
           />
           <Card
-            imgSrc="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            imgSrc="https://res.cloudinary.com/dpspogkzf/image/upload/v1608499271/mariah-lower/IMG_8979_xwlnxk.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
             alt="desk"
             postType="Training"
             title="Improve your handstand in 10 days"
