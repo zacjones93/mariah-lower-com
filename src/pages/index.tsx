@@ -14,12 +14,10 @@ export default function Home() {
         <title>Personal Training | Mariah</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
       <Hero />
       <About />
       <BlogCards />
       <Email className="justify-center" />
-      <Footer />
     </div>
   )
 }
