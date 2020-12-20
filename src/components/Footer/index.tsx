@@ -29,7 +29,10 @@ export const Footer = () => {
           </div>
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a
+            href="https://instagram.com/mariahlower?igshid=1b3n8xhbi1a4d"
+            className="text-gray-400 hover:text-gray-500"
+          >
             <span className="sr-only">Instagram</span>
             <svg
               className="h-6 w-6"
@@ -45,7 +48,10 @@ export const Footer = () => {
             </svg>
           </a>
 
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a
+            href="https://github.com/zacjones93/mariah-lower-com"
+            className="text-gray-400 hover:text-gray-500"
+          >
             <span className="sr-only">GitHub</span>
             <svg
               className="h-6 w-6"
