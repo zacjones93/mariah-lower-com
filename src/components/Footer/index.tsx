@@ -31,6 +31,7 @@ export const Footer = () => {
         <div className="mt-8 flex justify-center space-x-6">
           <a
             href="https://instagram.com/mariahlower?igshid=1b3n8xhbi1a4d"
+            target="_blank"
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">Instagram</span>
@@ -50,6 +51,7 @@ export const Footer = () => {
 
           <a
             href="https://github.com/zacjones93/mariah-lower-com"
+            target="_blank"
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">GitHub</span>
