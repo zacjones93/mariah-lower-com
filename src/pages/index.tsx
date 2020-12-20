@@ -9,7 +9,7 @@ import {Footer} from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 gap-2">
+    <div className="grid grid-cols-1 gap-2 overflow-x-hidden">
       <Head>
         <title>Personal Training | Mariah</title>
         <link rel="icon" href="/favicon.ico" />
