@@ -52,15 +52,8 @@ export const Email: any = () => {
               default:
                 return (
                   <form
-                    onSubmit={() => {
-                      event.preventDefault()
-                      alert(
-                        JSON.stringify({
-                          EMAIL: emailRef.current.value,
-                          NAME: nameRef.current.value,
-                          MESSAGE: messageRef.current.value,
-                        }),
-                      )
+                    onSubmit={(e) => {
+                      e.preventDefault()
                       subscribe({
                         EMAIL: emailRef.current.value,
                         NAME: nameRef.current.value,
