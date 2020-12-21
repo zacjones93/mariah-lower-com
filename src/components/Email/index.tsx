@@ -5,9 +5,9 @@ const signUpURL =
   'https://mariahlower.us7.list-manage.com/subscribe/post?u=9069f120e7988f441e57a2f3a&amp;id=38cf29bbdc'
 
 export const Email: any = () => {
-  const emailRef = useRef(undefined)
-  const nameRef = useRef(undefined)
-  const messageRef = useRef(undefined)
+  const emailRef = useRef<HTMLInputElement>(null)
+  const nameRef = useRef<HTMLInputElement>(null)
+  const messageRef = useRef<HTMLTextAreaElement>(null)
 
   return (
     <div className="bg-white min-w-max max-w-min mx-auto">
@@ -48,15 +48,20 @@ export const Email: any = () => {
                   </h2>
                 )
               case 'error':
+                // @ts-ignore
                 return <div dangerouslySetInnerHTML={{__html: message}} />
               default:
                 return (
                   <form
                     onSubmit={(e) => {
                       e.preventDefault()
+
                       subscribe({
+                        // @ts-ignore
                         EMAIL: emailRef.current.value,
+                        // @ts-ignore
                         NAME: nameRef.current.value,
+                        // @ts-ignore
                         MESSAGE: messageRef.current.value,
                       })
                     }}
