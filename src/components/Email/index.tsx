@@ -33,9 +33,20 @@ export const Email: any = () => {
           render={({subscribe, status, message}) => {
             switch (status) {
               case 'sending':
-                return <div>Sending...</div>
+                return (
+                  <h2 className="mt-5 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+                    <span className="block xl:inline">Sending...</span>
+                  </h2>
+                )
               case 'success':
-                return <div>Subscribed.</div>
+                return (
+                  <h2 className="mt-5 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+                    <hr />
+                    <span className="block text-gray-900 xl:inline">
+                      Message sent!
+                    </span>
+                  </h2>
+                )
               case 'error':
                 return <div dangerouslySetInnerHTML={{__html: message}} />
               default:
