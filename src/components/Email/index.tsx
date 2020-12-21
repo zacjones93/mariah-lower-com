@@ -1,13 +1,13 @@
-import {useState, createRef} from 'react'
+import {useRef} from 'react'
 import MailchimpSubscribe from 'react-mailchimp-subscribe'
 
 const signUpURL =
   'https://mariahlower.us7.list-manage.com/subscribe/post?u=9069f120e7988f441e57a2f3a&amp;id=38cf29bbdc'
 
 export const Email: any = () => {
-  const emailRef = createRef(undefined)
-  const nameRef = createRef(undefined)
-  const messageRef = createRef(undefined)
+  const emailRef = useRef(undefined)
+  const nameRef = useRef(undefined)
+  const messageRef = useRef(undefined)
 
   return (
     <div className="bg-white min-w-max max-w-min mx-auto">
